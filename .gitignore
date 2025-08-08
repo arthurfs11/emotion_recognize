@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Virtual env
+venv/
+.env/
+.venv/
+
+# IDE / SO
+.idea/
+.vscode/
+.DS_Store
+
+# Dados gerados pelo app
+images_*/
+profiles/
+log.txt
+logs/*.log
+
+# Deepface / pesos locais
+~/.deepface/
+.deepface/
+*.h5
+*.weights
+
+# Artefatos
+*.jpg
+*.png
+*.csv
