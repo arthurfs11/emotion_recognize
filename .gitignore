@@ -32,3 +32,10 @@ logs/*.log
 *.jpg
 *.png
 *.csv
+
+dist/
+build/
+*.dmg
+*.pkg
+*.exe
+*.msi

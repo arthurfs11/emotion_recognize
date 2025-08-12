@@ -1,6 +1,6 @@
 # app/main_trial.py
 import os, sys, time, csv
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import re
 import psutil
 import psycopg2
@@ -25,6 +25,19 @@ def coletar_recursos():
     return {"cpu": psutil.cpu_percent(interval=1),
             "mem": psutil.virtual_memory().percent,
             "disk": psutil.disk_usage('/').percent}
+
+# --- util p/ comparar datetimes com/sem timezone ---
+def _now_like(dt: datetime) -> datetime:
+    """Retorna 'agora' com timezone compatível com dt (se dt for aware)."""
+    if isinstance(dt, datetime) and dt.tzinfo is not None and dt.tzinfo.utcoffset(dt) is not None:
+        return datetime.now(dt.tzinfo)
+    return datetime.now()
+
+def _fmt_dt(dt: datetime) -> str:
+    try:
+        return dt.astimezone(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC") if dt.tzinfo else dt.strftime("%Y-%m-%d %H:%M:%S")
+    except Exception:
+        return str(dt)
 
 def _tk_askstring(title, prompt):
     if not TK_AVAILABLE: raise RuntimeError("Tk indisponível")
@@ -55,10 +68,10 @@ def _tk_error(title, msg):
 
 def pedir_email():
     try:
-        v = _tk_askstring("Trial - Login", "Digite seu e-mail para iniciar o trial:")
+        v = _tk_askstring("Trial - Login", "Digite seu e-mail para iniciar:")
         return (v or "").strip() if v else None
     except Exception:
-        try: return input("Digite seu e-mail para iniciar o trial: ").strip()
+        try: return input("Digite seu e-mail para iniciar: ").strip()
         except Exception: return None
 
 def alert(titulo, msg):
@@ -101,27 +114,17 @@ def checar_trial_por_email(email: str):
         alert_erro("Não foi possível consultar o servidor de licença", str(e))
         sys.exit(1)
 
-def desativar_trial(email: str):
-    """Marca ativo='N' e carimba expires_at=now()."""
-    try:
-        conn = trial_conn()
-        with conn.cursor() as cur:
-            cur.execute("""
-                UPDATE trial_licencas
-                   SET ativo = 'N',
-                       expires_at = NOW()
-                 WHERE email = %s
-            """, (email,))
-        conn.commit()
-        conn.close()
-    except Exception as e:
-        # Não interrompe o fluxo final — só informa no console
-        print(f"[WARN] Falha ao desativar licença de {email}: {e}")
-
 # ---------- CSV/PDF ----------
 def caminho_csv_na_area_de_trabalho(email: str) -> str:
-    desktop = os.path.join(os.path.expanduser("~"), "Desktop")
-    return os.path.join(desktop, f"trial_emocoes_{email.replace('@','_').replace('.','_')}.csv")
+    desktop = _get_desktop_dir()
+    fname = f"trial_emocoes_{email.replace('@','_').replace('.','_')}.csv"
+    return os.path.join(desktop, fname)
+
+def caminho_pdf_na_area_de_trabalho(email: str) -> str:
+    desktop = _get_desktop_dir()
+    fname = f"trial_relatorio_{email.replace('@','_').replace('.','_')}.pdf"
+    return os.path.join(desktop, fname)
+
 
 def preparar_csv(path: str):
     if not os.path.exists(path):
@@ -140,9 +143,70 @@ def append_csv(path: str, data_hora, emocoes, rec):
             rec.get("cpu",0), rec.get("mem",0), rec.get("disk",0)
         ])
 
-def caminho_pdf_na_area_de_trabalho(email: str) -> str:
-    desktop = os.path.join(os.path.expanduser("~"), "Desktop")
-    return os.path.join(desktop, f"trial_relatorio_{email.replace('@','_').replace('.','_')}.pdf")
+
+# --- Desktop cross-platform (Windows OneDrive / macOS iCloud / Linux XDG) ---
+def _get_desktop_dir() -> str:
+    import os, sys, re
+
+    home = os.path.expanduser("~")
+    candidates = []
+
+    if sys.platform.startswith("win"):
+        # 1) Variáveis do OneDrive
+        for key in ("OneDrive", "OneDriveConsumer", "OneDriveCommercial"):
+            root = os.environ.get(key)
+            if root:
+                candidates.append(os.path.join(root, "Desktop"))
+
+        # 2) Pastas OneDrive business dentro do perfil (ex.: "OneDrive - ACME")
+        userprofile = os.environ.get("USERPROFILE", home)
+        if os.path.isdir(userprofile):
+            try:
+                for name in os.listdir(userprofile):
+                    if name.lower().startswith("onedrive"):
+                        candidates.append(os.path.join(userprofile, name, "Desktop"))
+            except Exception:
+                pass
+
+        # 3) Desktop local clássico
+        candidates.append(os.path.join(userprofile, "Desktop"))
+
+    elif sys.platform == "darwin":
+        # 1) iCloud Drive Desktop
+        candidates.append(os.path.join(home, "Library", "Mobile Documents", "com~apple~CloudDocs", "Desktop"))
+        # 2) Desktop padrão
+        candidates.append(os.path.join(home, "Desktop"))
+
+    else:
+        # Linux/BSD: respeita XDG_DESKTOP_DIR se existir
+        userdirs = os.path.join(home, ".config", "user-dirs.dirs")
+        if os.path.isfile(userdirs):
+            try:
+                with open(userdirs, "r", encoding="utf-8", errors="ignore") as f:
+                    txt = f.read()
+                m = re.search(r'XDG_DESKTOP_DIR="?(.+?)"?\n', txt)
+                if m:
+                    path = m.group(1).replace("$HOME", home)
+                    candidates.append(os.path.expandvars(path))
+            except Exception:
+                pass
+        # fallback
+        candidates.append(os.path.join(home, "Desktop"))
+
+    # Retorna a primeira que existir; caso nenhuma exista, cria a última
+    for p in candidates:
+        if p and os.path.isdir(p):
+            return p
+
+    fallback = candidates[-1] if candidates else os.path.join(home, "Desktop")
+    try:
+        os.makedirs(fallback, exist_ok=True)
+    except Exception:
+        pass
+    return fallback
+
+
+
 
 def gerar_pdf_relatorio(csv_path: str, out_path: str = None, titulo: str = None):
     try:
@@ -173,6 +237,7 @@ def gerar_pdf_relatorio(csv_path: str, out_path: str = None, titulo: str = None)
         info["emocao_media_dominante"] = max(dom, key=dom.get) if dom else "-"
 
         with PdfPages(out_path) as pdf:
+            import matplotlib.pyplot as plt
             fig = plt.figure(figsize=(8.27, 11.69)); plt.axis("off")
             y=0.9
             plt.text(0.5,y,titulo,ha="center",va="center",fontsize=20,weight="bold"); y-=0.08
@@ -215,13 +280,15 @@ def gerar_pdf_relatorio(csv_path: str, out_path: str = None, titulo: str = None)
         alert("Relatório", f"Falha ao gerar PDF: {e}")
         return None
 
-TRIAL_DURATION_MIN = 30
-INTERVALO = 60
+INTERVALO = 60  # coleta a cada 60s
+
+INTERVALO = 10           # coleta a cada 60s
+TEST_DURATION_MIN = 30   # duração do teste em minutos
 
 if __name__ == "__main__":
     email = pedir_email()
     if not email or not email_valido(email):
-        alert_erro("E-mail inválido", "Informe um e-mail válido para iniciar o trial.")
+        alert_erro("E-mail inválido", "Informe um e-mail válido para iniciar.")
         sys.exit(0)
 
     lic = checar_trial_por_email(email)
@@ -229,23 +296,27 @@ if __name__ == "__main__":
         alert_erro("Usuário não cadastrado", "E-mail não encontrado. Contate o administrador do sistema.")
         sys.exit(0)
 
-    ativo = (lic.get("ativo") or "N").upper() == "S"
+    ativo = (str(lic.get("ativo") or "N").upper() == "S")
     expira = lic.get("expires_at")
 
+    if expira is not None:
+        agora = _now_like(expira)
+        if agora > expira:
+            alert_erro("Licença expirada",
+                       f"Sua licença expirou em {_fmt_dt(expira)}. Contate o administrador do sistema.")
+            sys.exit(0)
+
     if not ativo:
-        alert_erro("Licença inativa", "Licença trial expirada ou inativa. Contate o administrador do sistema.")
+        alert_erro("Licença inativa", "Licença trial inativa. Contate o administrador do sistema.")
         sys.exit(0)
 
-    if expira is not None and datetime.now() > expira:
-        alert_erro("Licença expirada", "Sua licença trial expirou. Contate o administrador do sistema.")
-        sys.exit(0)
-
+    # Autorizado
     csv_path = caminho_csv_na_area_de_trabalho(email)
     preparar_csv(csv_path)
-    alert("Trial autorizado", "Sua licença foi validada. O trial rodará por 30 minutos.")
+    alert("Autorizado", f"Licença validada. A coleta será feita por {TEST_DURATION_MIN} minutos.")
 
     inicio = datetime.now()
-    fim = inicio + timedelta(minutes=TRIAL_DURATION_MIN)
+    fim = inicio + timedelta(minutes=TEST_DURATION_MIN)
 
     try:
         while datetime.now() <= fim:
@@ -254,22 +325,19 @@ if __name__ == "__main__":
                 emocoes = coletar_emocoes_mock()
                 recursos = coletar_recursos()
                 append_csv(csv_path, agora, emocoes, recursos)
-            except Exception:
-                pass
+            except Exception as e:
+                print(f"[WARN] Falha na coleta: {e}")
             time.sleep(INTERVALO)
     except KeyboardInterrupt:
         pass
     finally:
-        # GARANTE desativação mesmo com erro/interrupt
-        desativar_trial(email)
-
-    pdf_path = gerar_pdf_relatorio(
-        csv_path,
-        out_path=caminho_pdf_na_area_de_trabalho(email),
-        titulo=f"Relatório Trial — {email}"
-    )
-    if pdf_path:
-        alert("Trial finalizado", f"Seu trial terminou.\nCSV: {csv_path}\nPDF: {pdf_path}")
-    else:
-        alert("Trial finalizado", f"Seu trial terminou. Os dados foram salvos em:\n{csv_path}")
-    sys.exit(0)
+        pdf_path = gerar_pdf_relatorio(
+            csv_path,
+            out_path=caminho_pdf_na_area_de_trabalho(email),
+            titulo=f"Relatório Trial — {email}"
+        )
+        if pdf_path:
+            alert("Encerrado", f"Coleta finalizada.\nCSV: {csv_path}\nPDF: {pdf_path}")
+        else:
+            alert("Encerrado", f"Coleta finalizada. Dados salvos em:\n{csv_path}")
+        sys.exit(0)
