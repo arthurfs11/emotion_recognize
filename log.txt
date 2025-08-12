@@ -67,3 +67,53 @@
 07/08/2025 21:52:32 | DEBUG | 74336031 | Recursos coletados: {'cpu': 29.8, 'mem': 61.5, 'disk': 13.3}
 07/08/2025 21:52:33 | SUCCESS | 74336031 | ✅ [21:52:31] Registro salvo — Estado: neutro
 07/08/2025 21:52:43 | DEBUG | 74336031 | Iniciando captura de dados emocionais...
+08/08/2025 12:03:55 | INFO | 50340778 | Tabelas verificadas/criadas com sucesso.
+08/08/2025 12:04:28 | DEBUG | 50340778 | Embedding salvo para pessoa_id=1989bade-e052-4728-ac3f-5bf89e8f1f64 (len=512)
+08/08/2025 12:04:32 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:04:51 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=medo cam=ok face=ok
+08/08/2025 12:05:10 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:05:30 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:05:50 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:06:09 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:06:28 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=medo cam=ok face=ok
+08/08/2025 12:06:47 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:07:06 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:07:26 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:07:45 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:08:04 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:08:22 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=usuario_ausente cam=ok face=outra_pessoa
+08/08/2025 12:08:40 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=usuario_ausente cam=ok face=outra_pessoa
+08/08/2025 12:08:59 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:09:17 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=medo cam=ok face=ok
+08/08/2025 12:09:36 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:09:55 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:10:15 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=triste cam=ok face=ok
+08/08/2025 12:10:33 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:10:52 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:11:12 | INFO | 50340778 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 12:11:31 | INFO | 99337166 | Tabelas verificadas/criadas com sucesso.
+08/08/2025 12:11:55 | DEBUG | 99337166 | Embedding salvo para pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e (len=512)
+08/08/2025 12:12:00 | INFO | 99337166 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=ok face=ok
+08/08/2025 12:12:19 | INFO | 99337166 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=ok face=ok
+08/08/2025 12:12:39 | INFO | 99337166 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=ok face=ok
+08/08/2025 12:27:17 | INFO | 39416998 | Tabelas verificadas/criadas com sucesso.
+08/08/2025 12:27:34 | DEBUG | 39416998 | Embedding salvo para pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e (len=512)
+08/08/2025 12:27:44 | INFO | 39416998 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=ok face=ok
+08/08/2025 12:28:04 | INFO | 39416998 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=ok face=ok
+08/08/2025 13:07:29 | INFO | 77087106 | Tabelas verificadas/criadas com sucesso.
+08/08/2025 13:07:50 | DEBUG | 77087106 | Embedding salvo para pessoa_id=1989bade-e052-4728-ac3f-5bf89e8f1f64 (len=512)
+08/08/2025 13:08:03 | INFO | 77087106 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 13:08:24 | INFO | 77087106 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+08/08/2025 13:08:45 | INFO | 77087106 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+11/08/2025 17:06:02 | INFO | 23541078 | Tabelas verificadas/criadas com sucesso.
+11/08/2025 17:06:29 | SUCCESS | 23541078 | [IDENTIDADE] pessoa_id=1989bade-e052-4728-ac3f-5bf89e8f1f64 origem=db_match dist=0.16921170242418138
+11/08/2025 17:06:29 | DEBUG | 23541078 | Embedding salvo para pessoa_id=1989bade-e052-4728-ac3f-5bf89e8f1f64 (len=512)
+11/08/2025 17:06:43 | INFO | 23541078 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=medo cam=ok face=ok
+11/08/2025 17:07:00 | INFO | 23541078 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=feliz cam=ok face=ok
+11/08/2025 17:07:16 | INFO | 23541078 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=medo cam=ok face=ok
+11/08/2025 17:07:23 | INFO | 23541078 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=usuario_ausente cam=erro face=ok
+11/08/2025 17:07:38 | INFO | 23541078 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+11/08/2025 17:07:48 | INFO | 23541078 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=medo cam=ok face=ok
+11/08/2025 17:07:59 | INFO | 23541078 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
+11/08/2025 17:08:05 | INFO | 23541078 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=usuario_ausente cam=erro face=ok
+11/08/2025 17:08:18 | INFO | 23541078 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=feliz cam=ok face=ok
