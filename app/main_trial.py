@@ -11,6 +11,14 @@ os.environ.setdefault("MPLBACKEND", "Agg")
 
 NEON_DB_URL = "postgresql://neondb_owner:npg_7Mkvmpwc2tuT@ep-broad-boat-ack6fc3f-pooler.sa-east-1.aws.neon.tech/neondb?sslmode=require"
 
+# ===== NOVOS IMPORTS P/ EMOÇÕES REAIS =====
+import cv2
+try:
+    # Se existir no seu projeto, usaremos preferencialmente
+    from config.emocao import analisar_emocao as _analisar_emocao
+except Exception:
+    _analisar_emocao = None
+
 try:
     import tkinter as tk
     from tkinter import simpledialog, messagebox
@@ -18,17 +26,87 @@ try:
 except Exception:
     TK_AVAILABLE = False
 
-def coletar_emocoes_mock():
-    return {"feliz":10.0,"triste":5.0,"medo":2.0,"raiva":1.0,"desgosto":0.5,"surpresa":3.0,"neutro":78.5}
 
+# ========== COLETA DE EMOÇÕES (REAL) ==========
+def init_camera():
+    cap = cv2.VideoCapture(0)
+    cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+    if not cap.isOpened():
+        raise RuntimeError("Não foi possível abrir a webcam (VideoCapture(0)).")
+    return cap
+
+def _mapear_emocoes_en_pt(emotions_en: dict) -> dict:
+    mapa = {
+        "happy": "feliz",
+        "sad": "triste",
+        "fear": "medo",
+        "angry": "raiva",
+        "disgust": "desgosto",
+        "surprise": "surpresa",
+        "neutral": "neutro",
+    }
+    filtrado = { mapa[k]: float(v) for k, v in emotions_en.items() if k in mapa }
+    total = sum(filtrado.values()) or 0.0
+    if total > 0:
+        return {k: round(v * 100.0 / total, 2) for k, v in filtrado.items()}
+    return {"feliz":0,"triste":0,"medo":0,"raiva":0,"desgosto":0,"surpresa":0,"neutro":100.0}
+
+def _normalizar_pt(p: dict) -> dict:
+    padrao = {"feliz":0.0,"triste":0.0,"medo":0.0,"raiva":0.0,"desgosto":0.0,"surpresa":0.0,"neutro":0.0}
+    for k in list(p.keys()):
+        if k not in padrao:
+            p.pop(k, None)
+    padrao.update({k: float(v) for k, v in p.items() if k in padrao})
+    s = sum(padrao.values()) or 0.0
+    if s > 0:
+        return {k: round(v * 100.0 / s, 2) for k, v in padrao.items()}
+    padrao["neutro"] = 100.0
+    return padrao
+
+def coletar_emocoes_reais(cap) -> dict:
+    ok, frame = cap.read()
+    if not ok or frame is None:
+        raise RuntimeError("Falha ao ler frame da webcam.")
+
+    # 1) Preferência: sua função do projeto
+    if _analisar_emocao is not None:
+        try:
+            res = _analisar_emocao(frame) or {}
+            # Caso venha em EN (DeepFace-like)
+            if any(k in res for k in ("happy","sad","fear","angry","disgust","surprise","neutral")):
+                return _mapear_emocoes_en_pt(res)
+            # Caso já venha em PT
+            return _normalizar_pt(res)
+        except Exception:
+            pass  # Plano B
+
+    # 2) Plano B: DeepFace direto
+    try:
+        from deepface import DeepFace
+        analysis = DeepFace.analyze(
+            img_path=frame,
+            actions=["emotion"],
+            enforce_detection=False
+        )
+        if isinstance(analysis, list):
+            analysis = analysis[0]
+        emotions = analysis.get("emotion") or analysis
+        return _mapear_emocoes_en_pt(emotions)
+    except Exception as e:
+        print(f"[WARN] DeepFace/análise falhou: {e}")
+        return {"feliz":0,"triste":0,"medo":0,"raiva":0,"desgosto":0,"surpresa":0,"neutro":100.0}
+
+
+# ========== RECURSOS DO SISTEMA ==========
 def coletar_recursos():
     return {"cpu": psutil.cpu_percent(interval=1),
             "mem": psutil.virtual_memory().percent,
             "disk": psutil.disk_usage('/').percent}
 
+
 # --- util p/ comparar datetimes com/sem timezone ---
 def _now_like(dt: datetime) -> datetime:
-    """Retorna 'agora' com timezone compatível com dt (se dt for aware)."""
     if isinstance(dt, datetime) and dt.tzinfo is not None and dt.tzinfo.utcoffset(dt) is not None:
         return datetime.now(dt.tzinfo)
     return datetime.now()
@@ -125,7 +203,6 @@ def caminho_pdf_na_area_de_trabalho(email: str) -> str:
     fname = f"trial_relatorio_{email.replace('@','_').replace('.','_')}.pdf"
     return os.path.join(desktop, fname)
 
-
 def preparar_csv(path: str):
     if not os.path.exists(path):
         with open(path, "w", newline="", encoding="utf-8") as f:
@@ -143,22 +220,17 @@ def append_csv(path: str, data_hora, emocoes, rec):
             rec.get("cpu",0), rec.get("mem",0), rec.get("disk",0)
         ])
 
-
 # --- Desktop cross-platform (Windows OneDrive / macOS iCloud / Linux XDG) ---
 def _get_desktop_dir() -> str:
     import os, sys, re
-
     home = os.path.expanduser("~")
     candidates = []
 
     if sys.platform.startswith("win"):
-        # 1) Variáveis do OneDrive
         for key in ("OneDrive", "OneDriveConsumer", "OneDriveCommercial"):
             root = os.environ.get(key)
             if root:
                 candidates.append(os.path.join(root, "Desktop"))
-
-        # 2) Pastas OneDrive business dentro do perfil (ex.: "OneDrive - ACME")
         userprofile = os.environ.get("USERPROFILE", home)
         if os.path.isdir(userprofile):
             try:
@@ -167,18 +239,13 @@ def _get_desktop_dir() -> str:
                         candidates.append(os.path.join(userprofile, name, "Desktop"))
             except Exception:
                 pass
-
-        # 3) Desktop local clássico
         candidates.append(os.path.join(userprofile, "Desktop"))
 
     elif sys.platform == "darwin":
-        # 1) iCloud Drive Desktop
         candidates.append(os.path.join(home, "Library", "Mobile Documents", "com~apple~CloudDocs", "Desktop"))
-        # 2) Desktop padrão
         candidates.append(os.path.join(home, "Desktop"))
 
     else:
-        # Linux/BSD: respeita XDG_DESKTOP_DIR se existir
         userdirs = os.path.join(home, ".config", "user-dirs.dirs")
         if os.path.isfile(userdirs):
             try:
@@ -190,10 +257,8 @@ def _get_desktop_dir() -> str:
                     candidates.append(os.path.expandvars(path))
             except Exception:
                 pass
-        # fallback
         candidates.append(os.path.join(home, "Desktop"))
 
-    # Retorna a primeira que existir; caso nenhuma exista, cria a última
     for p in candidates:
         if p and os.path.isdir(p):
             return p
@@ -204,8 +269,6 @@ def _get_desktop_dir() -> str:
     except Exception:
         pass
     return fallback
-
-
 
 
 def gerar_pdf_relatorio(csv_path: str, out_path: str = None, titulo: str = None):
@@ -280,10 +343,11 @@ def gerar_pdf_relatorio(csv_path: str, out_path: str = None, titulo: str = None)
         alert("Relatório", f"Falha ao gerar PDF: {e}")
         return None
 
-INTERVALO = 60  # coleta a cada 60s
 
-INTERVALO = 10           # coleta a cada 60s
+# ===== PARÂMETROS =====
+INTERVALO = 10           # coleta a cada 10s
 TEST_DURATION_MIN = 30   # duração do teste em minutos
+
 
 if __name__ == "__main__":
     email = pedir_email()
@@ -318,11 +382,20 @@ if __name__ == "__main__":
     inicio = datetime.now()
     fim = inicio + timedelta(minutes=TEST_DURATION_MIN)
 
+    # ==== INICIALIZA WEBCAM ====
+    cap = None
+    try:
+        cap = init_camera()
+    except Exception as e:
+        alert_erro("Webcam", f"Não foi possível acessar a câmera: {e}")
+        sys.exit(0)
+
     try:
         while datetime.now() <= fim:
             agora = datetime.now()
             try:
-                emocoes = coletar_emocoes_mock()
+                # COLETA REAL
+                emocoes = coletar_emocoes_reais(cap)
                 recursos = coletar_recursos()
                 append_csv(csv_path, agora, emocoes, recursos)
             except Exception as e:
@@ -331,6 +404,12 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         pass
     finally:
+        try:
+            if cap is not None:
+                cap.release()
+        except Exception:
+            pass
+
         pdf_path = gerar_pdf_relatorio(
             csv_path,
             out_path=caminho_pdf_na_area_de_trabalho(email),
