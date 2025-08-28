@@ -4,8 +4,13 @@ import psycopg2
 from psycopg2.extras import Json
 from typing import Any, Dict, Optional
 
-from config.config import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
-from config.log import logger
+try:
+    from app.config.config import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
+    from app.config.log import logger
+except ModuleNotFoundError:
+    from config.config import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
+    from config.log import logger
+
 
 # ---- conjunto permitido (alinhado ao CHECK do banco) ----
 PERMITIDAS = {
@@ -48,6 +53,57 @@ def ensure_tables():
               ADD COLUMN IF NOT EXISTS brilho        REAL,
               ADD COLUMN IF NOT EXISTS face_distance REAL;
         """)
+
+                # Preferências por usuário (quiet hours, cap diário, etc.)
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS user_prefs (
+              user_id        VARCHAR(64) PRIMARY KEY,
+              quiet_start    TIME DEFAULT '22:00',
+              quiet_end      TIME DEFAULT '07:00',
+              daily_cap      INTEGER DEFAULT 4,
+              notify_enabled BOOLEAN DEFAULT TRUE,
+              created_at     TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            );
+        """)
+
+        # Estado do detector (baseline EWMA por usuário)
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS detector_state (
+              user_id        VARCHAR(64) PRIMARY KEY,
+              mu             DOUBLE PRECISION DEFAULT 50.0,
+              var            DOUBLE PRECISION DEFAULT 100.0,
+              active_peak    BOOLEAN DEFAULT FALSE,
+              below_counter  INTEGER DEFAULT 0,
+              initialized    BOOLEAN DEFAULT FALSE,
+              updated_at     TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            );
+        """)
+
+        # Tabela de alertas de estresse
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS stress_alerts (
+              alert_id       BIGSERIAL PRIMARY KEY,
+              user_id        VARCHAR(64) NOT NULL,
+              ts             TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+              level          TEXT NOT NULL CHECK (level IN ('high','very_high')),
+              z              DOUBLE PRECISION,
+              cooldown_until TIMESTAMPTZ,
+              delivered      BOOLEAN DEFAULT FALSE,
+              response       TEXT CHECK (response IN ('accepted','snoozed','ignored')),
+              closed_ts      TIMESTAMPTZ
+            );
+        """)
+        cur.execute("""CREATE INDEX IF NOT EXISTS idx_alerts_user_ts ON stress_alerts (user_id, ts DESC);""")
+
+        # Colunas para registrar a métrica de estresse e o estado do detector em cada leitura
+        cur.execute("""
+            ALTER TABLE leituras_emocionais
+              ADD COLUMN IF NOT EXISTS stress_score DOUBLE PRECISION,
+              ADD COLUMN IF NOT EXISTS z            DOUBLE PRECISION,
+              ADD COLUMN IF NOT EXISTS mu           DOUBLE PRECISION,
+              ADD COLUMN IF NOT EXISTS sigma        DOUBLE PRECISION;
+        """)
+
 
         conn.commit()
         cur.close()

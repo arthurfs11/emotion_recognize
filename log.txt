@@ -117,3 +117,1025 @@
 11/08/2025 17:07:59 | INFO | 23541078 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=neutro cam=ok face=ok
 11/08/2025 17:08:05 | INFO | 23541078 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=usuario_ausente cam=erro face=ok
 11/08/2025 17:08:18 | INFO | 23541078 | Registro salvo — pessoa=1989bade-e052-4728-ac3f-5bf89e8f1f64 estado=feliz cam=ok face=ok
+19/08/2025 12:57:15 | INFO | 13626936 | Tabelas verificadas/criadas com sucesso.
+19/08/2025 12:57:31 | SUCCESS | 13626936 | [IDENTIDADE] pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e origem=db_match dist=0.1299002881015343
+19/08/2025 12:57:31 | DEBUG | 13626936 | Embedding salvo para pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e (len=512)
+19/08/2025 12:57:38 | INFO | 13626936 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=usuario_ausente cam=erro face=ok
+19/08/2025 12:57:48 | INFO | 13626936 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=usuario_ausente cam=erro face=ok
+19/08/2025 12:57:59 | INFO | 13626936 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=ok face=ok
+19/08/2025 12:58:08 | INFO | 13626936 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=usuario_ausente cam=erro face=ok
+19/08/2025 12:58:18 | INFO | 13626936 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=usuario_ausente cam=erro face=ok
+19/08/2025 12:58:28 | INFO | 13626936 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=usuario_ausente cam=erro face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:22:38 | INFO | 7408332 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:03 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:28:04 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:28:04 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:28:04 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:04 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:04 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:04 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:04 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:28:04 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:28:04 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:28:04 | INFO | 77093814 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:34:44 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:45 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:45 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:45 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:45 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:34:45 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:34:45 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:34:45 | INFO | 29076460 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:35:15 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:16 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:35:17 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:35:17 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:35:17 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:17 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:17 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:17 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:17 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:35:17 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:35:17 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:35:17 | INFO | 53719999 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:36:32 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:32 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:32 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:32 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:32 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:32 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:32 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:36:33 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:36:34 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:36:34 | INFO | 73977932 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:37:24 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:24 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:24 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:24 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:24 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:24 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:24 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:24 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:24 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:24 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:24 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:24 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:37:25 | INFO | 42593720 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:37:59 | INFO | 51287860 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:59 | INFO | 51287860 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:59 | INFO | 51287860 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:37:59 | INFO | 51287860 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:38:00 | INFO | 51287860 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:38:00 | INFO | 51287860 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:38:00 | INFO | 51287860 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:38:00 | INFO | 51287860 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:38:00 | INFO | 51287860 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:38:00 | INFO | 51287860 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:43:00 | INFO | 9995253 | Tabelas verificadas/criadas com sucesso.
+19/08/2025 14:43:00 | INFO | 9995253 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:43:00 | INFO | 9995253 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:43:00 | INFO | 9995253 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:43:01 | INFO | 9995253 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:43:01 | INFO | 9995253 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:43:01 | INFO | 9995253 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:43:08 | INFO | 9995253 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:43:08 | INFO | 9995253 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:43:08 | INFO | 9995253 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:43:08 | INFO | 9995253 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:44:45 | INFO | 5690128 | Tabelas verificadas/criadas com sucesso.
+19/08/2025 14:44:45 | INFO | 5690128 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:44:45 | INFO | 5690128 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:44:46 | INFO | 5690128 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:44:46 | INFO | 5690128 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:44:46 | INFO | 5690128 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:44:46 | INFO | 5690128 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:44:53 | INFO | 5690128 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:44:53 | INFO | 5690128 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:44:53 | INFO | 5690128 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:44:54 | INFO | 5690128 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:41 | INFO | 80941431 | Tabelas verificadas/criadas com sucesso.
+19/08/2025 14:59:41 | INFO | 80941431 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:42 | INFO | 80941431 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:42 | INFO | 80941431 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:42 | INFO | 80941431 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:42 | INFO | 80941431 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:43 | INFO | 80941431 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:59:49 | INFO | 80941431 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 14:59:49 | INFO | 80941431 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:50 | INFO | 80941431 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:50 | INFO | 80941431 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:54 | INFO | 74724214 | Tabelas verificadas/criadas com sucesso.
+19/08/2025 14:59:54 | INFO | 74724214 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:54 | INFO | 74724214 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:55 | INFO | 74724214 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:55 | INFO | 74724214 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:55 | INFO | 74724214 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 14:59:55 | INFO | 74724214 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 15:00:02 | INFO | 74724214 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 15:00:02 | INFO | 74724214 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:00:02 | INFO | 74724214 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:00:03 | INFO | 74724214 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:02:59 | INFO | 16946352 | Tabelas verificadas/criadas com sucesso.
+19/08/2025 15:02:59 | INFO | 16946352 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:02:59 | INFO | 16946352 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:02:59 | INFO | 16946352 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:03:00 | INFO | 16946352 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:03:00 | INFO | 16946352 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:03:00 | INFO | 16946352 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 15:03:07 | INFO | 16946352 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 15:03:07 | INFO | 16946352 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:03:07 | INFO | 16946352 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:03:07 | INFO | 16946352 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:07:35 | INFO | 74187392 | Tabelas verificadas/criadas com sucesso.
+19/08/2025 15:07:35 | INFO | 74187392 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:07:36 | INFO | 74187392 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:07:36 | INFO | 74187392 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:07:36 | INFO | 74187392 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:07:36 | INFO | 74187392 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:07:37 | INFO | 74187392 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 15:07:43 | INFO | 74187392 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 15:07:43 | INFO | 74187392 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:07:44 | INFO | 74187392 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:07:44 | INFO | 74187392 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:17 | INFO | 76425036 | Tabelas verificadas/criadas com sucesso.
+19/08/2025 15:26:17 | INFO | 76425036 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:18 | INFO | 76425036 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:18 | INFO | 76425036 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:18 | INFO | 76425036 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:18 | INFO | 76425036 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:19 | INFO | 76425036 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 15:26:25 | INFO | 76425036 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 15:26:25 | INFO | 76425036 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:26 | INFO | 76425036 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:26 | INFO | 76425036 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:43 | INFO | 22077744 | Tabelas verificadas/criadas com sucesso.
+19/08/2025 15:26:43 | INFO | 22077744 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:43 | INFO | 22077744 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:43 | INFO | 22077744 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:43 | INFO | 22077744 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:44 | INFO | 22077744 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:44 | INFO | 22077744 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 15:26:51 | INFO | 22077744 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 15:26:51 | INFO | 22077744 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:51 | INFO | 22077744 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:26:51 | INFO | 22077744 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:36:17 | INFO | 61313998 | Tabelas verificadas/criadas com sucesso.
+19/08/2025 15:36:17 | INFO | 61313998 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:36:17 | INFO | 61313998 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:36:18 | INFO | 61313998 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:36:18 | INFO | 61313998 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:36:18 | INFO | 61313998 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:36:18 | INFO | 61313998 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 15:36:25 | INFO | 61313998 | Registro salvo — pessoa=p1 estado=raiva cam=ok face=ok
+19/08/2025 15:36:25 | INFO | 61313998 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:36:25 | INFO | 61313998 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+19/08/2025 15:36:26 | INFO | 61313998 | Registro salvo — pessoa=p1 estado=neutro cam=ok face=ok
+28/08/2025 11:06:40 | ERROR | 1438775 | Erro ao garantir tabelas: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 118, in <module>
+    # Bootstrap identidade
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 34, in ensure_tables
+    conn = _conn()
+           └ <function _conn at 0x1231ab940>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 22, in _conn
+    return psycopg2.connect(
+           │        └ <function connect at 0x122ebb310>
+           └ <module 'psycopg2' from '/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init...
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           │        │                       │                     └ {}
+           │        │                       └ None
+           │        └ "dbname=emocional user=arthurfaria password='' host=localhost port=5432"
+           └ <built-in function _connect>
+
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+28/08/2025 11:06:40 | ERROR | 1438775 | Erro ao garantir tabelas: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 118, in <module>
+    # Bootstrap identidade
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 34, in ensure_tables
+    conn = _conn()
+           └ <function _conn at 0x1231ab940>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 22, in _conn
+    return psycopg2.connect(
+           │        └ <function connect at 0x122ebb310>
+           └ <module 'psycopg2' from '/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init...
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           │        │                       │                     └ {}
+           │        │                       └ None
+           │        └ "dbname=emocional user=arthurfaria password='' host=localhost port=5432"
+           └ <built-in function _connect>
+
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+28/08/2025 11:06:58 | ERROR | 1438775 | Erro ao listar embeddings: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 127, in <module>
+    )
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/identity.py", line 75, in load_or_create_pessoa_id
+    hit = _match_db_by_embedding(emb_now, limiar_cosine)
+          │                      │        └ 0.3
+          │                      └ array([ 1.36258733e+00,  6.86542869e-01, -1.28777117e-01, -6.04644001e-01,
+          │                                1.13419676e+00,  3.92668843e-01, -1.053253...
+          └ <function _match_db_by_embedding at 0x134fd2af0>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/identity.py", line 38, in _match_db_by_embedding
+    candidatos = listar_pessoas_embeddings()  # [(pessoa_id, np.array), ...]
+                 └ <function listar_pessoas_embeddings at 0x1231abca0>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 235, in listar_pessoas_embeddings
+    conn = _conn(); cur = conn.cursor()
+           └ <function _conn at 0x1231ab940>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 22, in _conn
+    return psycopg2.connect(
+           │        └ <function connect at 0x122ebb310>
+           └ <module 'psycopg2' from '/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init...
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           │        │                       │                     └ {}
+           │        │                       └ None
+           │        └ "dbname=emocional user=arthurfaria password='' host=localhost port=5432"
+           └ <built-in function _connect>
+
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+28/08/2025 11:06:58 | ERROR | 1438775 | Erro ao listar embeddings: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 127, in <module>
+    )
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/identity.py", line 75, in load_or_create_pessoa_id
+    hit = _match_db_by_embedding(emb_now, limiar_cosine)
+          │                      │        └ 0.3
+          │                      └ array([ 1.36258733e+00,  6.86542869e-01, -1.28777117e-01, -6.04644001e-01,
+          │                                1.13419676e+00,  3.92668843e-01, -1.053253...
+          └ <function _match_db_by_embedding at 0x134fd2af0>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/identity.py", line 38, in _match_db_by_embedding
+    candidatos = listar_pessoas_embeddings()  # [(pessoa_id, np.array), ...]
+                 └ <function listar_pessoas_embeddings at 0x1231abca0>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 235, in listar_pessoas_embeddings
+    conn = _conn(); cur = conn.cursor()
+           └ <function _conn at 0x1231ab940>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 22, in _conn
+    return psycopg2.connect(
+           │        └ <function connect at 0x122ebb310>
+           └ <module 'psycopg2' from '/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init...
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           │        │                       │                     └ {}
+           │        │                       └ None
+           │        └ "dbname=emocional user=arthurfaria password='' host=localhost port=5432"
+           └ <built-in function _connect>
+
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+28/08/2025 11:06:58 | ERROR | 1438775 | Erro ao carregar embedding do banco: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 127, in <module>
+    )
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/identity.py", line 88, in load_or_create_pessoa_id
+    emb_ref = carregar_embedding_db(local_id)
+              │                     └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+              └ <function carregar_embedding_db at 0x1231abb80>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 165, in carregar_embedding_db
+    conn = _conn(); cur = conn.cursor()
+           └ <function _conn at 0x1231ab940>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 22, in _conn
+    return psycopg2.connect(
+           │        └ <function connect at 0x122ebb310>
+           └ <module 'psycopg2' from '/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init...
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           │        │                       │                     └ {}
+           │        │                       └ None
+           │        └ "dbname=emocional user=arthurfaria password='' host=localhost port=5432"
+           └ <built-in function _connect>
+
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+28/08/2025 11:06:58 | ERROR | 1438775 | Erro ao carregar embedding do banco: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 127, in <module>
+    )
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/identity.py", line 88, in load_or_create_pessoa_id
+    emb_ref = carregar_embedding_db(local_id)
+              │                     └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+              └ <function carregar_embedding_db at 0x1231abb80>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 165, in carregar_embedding_db
+    conn = _conn(); cur = conn.cursor()
+           └ <function _conn at 0x1231ab940>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 22, in _conn
+    return psycopg2.connect(
+           │        └ <function connect at 0x122ebb310>
+           └ <module 'psycopg2' from '/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init...
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           │        │                       │                     └ {}
+           │        │                       └ None
+           │        └ "dbname=emocional user=arthurfaria password='' host=localhost port=5432"
+           └ <built-in function _connect>
+
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+28/08/2025 11:06:58 | SUCCESS | 91018460 | [IDENTIDADE] pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e origem=local_no_face dist=None
+28/08/2025 11:06:58 | SUCCESS | 91018460 | [IDENTIDADE] pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e origem=local_no_face dist=None
+28/08/2025 11:06:58 | ERROR | 1438775 | Erro ao salvar embedding no banco: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 134, in <module>
+    pass
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 147, in salvar_embedding_db
+    conn = _conn(); cur = conn.cursor()
+           └ <function _conn at 0x1231ab940>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 22, in _conn
+    return psycopg2.connect(
+           │        └ <function connect at 0x122ebb310>
+           └ <module 'psycopg2' from '/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init...
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           │        │                       │                     └ {}
+           │        │                       └ None
+           │        └ "dbname=emocional user=arthurfaria password='' host=localhost port=5432"
+           └ <built-in function _connect>
+
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+28/08/2025 11:06:58 | ERROR | 1438775 | Erro ao salvar embedding no banco: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 134, in <module>
+    pass
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 147, in salvar_embedding_db
+    conn = _conn(); cur = conn.cursor()
+           └ <function _conn at 0x1231ab940>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 22, in _conn
+    return psycopg2.connect(
+           │        └ <function connect at 0x122ebb310>
+           └ <module 'psycopg2' from '/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init...
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           │        │                       │                     └ {}
+           │        │                       └ None
+           │        └ "dbname=emocional user=arthurfaria password='' host=localhost port=5432"
+           └ <built-in function _connect>
+
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+28/08/2025 11:06:58 | ERROR | 1438775 | Erro ao carregar embedding do banco: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 143, in <module>
+    # ===== Loop principal =====
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 165, in carregar_embedding_db
+    conn = _conn(); cur = conn.cursor()
+           └ <function _conn at 0x1231ab940>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 22, in _conn
+    return psycopg2.connect(
+           │        └ <function connect at 0x122ebb310>
+           └ <module 'psycopg2' from '/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init...
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           │        │                       │                     └ {}
+           │        │                       └ None
+           │        └ "dbname=emocional user=arthurfaria password='' host=localhost port=5432"
+           └ <built-in function _connect>
+
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+28/08/2025 11:06:58 | ERROR | 1438775 | Erro ao carregar embedding do banco: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 143, in <module>
+    # ===== Loop principal =====
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 165, in carregar_embedding_db
+    conn = _conn(); cur = conn.cursor()
+           └ <function _conn at 0x1231ab940>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 22, in _conn
+    return psycopg2.connect(
+           │        └ <function connect at 0x122ebb310>
+           └ <module 'psycopg2' from '/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init...
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/venv/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           │        │                       │                     └ {}
+           │        │                       └ None
+           │        └ "dbname=emocional user=arthurfaria password='' host=localhost port=5432"
+           └ <built-in function _connect>
+
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+28/08/2025 11:11:21 | ERROR | 83689514 | Erro ao garantir tabelas: relation "leituras_emocionais" does not exist
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 116, in <module>
+    ensure_tables()
+    └ <function ensure_tables at 0x12cdb79d0>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 47, in ensure_tables
+    cur.execute("""
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x12cc4d4f0; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "leituras_emocionais" does not exist
+
+28/08/2025 11:11:21 | ERROR | 83689514 | Erro ao garantir tabelas: relation "leituras_emocionais" does not exist
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 116, in <module>
+    ensure_tables()
+    └ <function ensure_tables at 0x12cdb79d0>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 47, in ensure_tables
+    cur.execute("""
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x12cc4d4f0; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "leituras_emocionais" does not exist
+
+28/08/2025 11:11:38 | ERROR | 83689514 | Erro ao listar embeddings: relation "pessoas" does not exist
+LINE 1: SELECT pessoa_id, embedding FROM pessoas
+                                         ^
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 125, in <module>
+    pessoa_id, emb_now, dist, origem = load_or_create_pessoa_id(
+                                       └ <function load_or_create_pessoa_id at 0x13ec0cb80>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/identity.py", line 75, in load_or_create_pessoa_id
+    hit = _match_db_by_embedding(emb_now, limiar_cosine)
+          │                      │        └ 0.3
+          │                      └ array([ 0.9579004 ,  1.9947747 ,  0.1604189 , -0.9752116 ,  0.5954882 ,
+          │                                0.02714481, -0.8766285 ,  0.59038925,  0.2015...
+          └ <function _match_db_by_embedding at 0x13ec0caf0>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/identity.py", line 38, in _match_db_by_embedding
+    candidatos = listar_pessoas_embeddings()  # [(pessoa_id, np.array), ...]
+                 └ <function listar_pessoas_embeddings at 0x12cdb7ca0>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 236, in listar_pessoas_embeddings
+    cur.execute("SELECT pessoa_id, embedding FROM pessoas")
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x13ec239a0; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "pessoas" does not exist
+LINE 1: SELECT pessoa_id, embedding FROM pessoas
+                                         ^
+
+28/08/2025 11:11:38 | ERROR | 83689514 | Erro ao listar embeddings: relation "pessoas" does not exist
+LINE 1: SELECT pessoa_id, embedding FROM pessoas
+                                         ^
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 125, in <module>
+    pessoa_id, emb_now, dist, origem = load_or_create_pessoa_id(
+                                       └ <function load_or_create_pessoa_id at 0x13ec0cb80>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/identity.py", line 75, in load_or_create_pessoa_id
+    hit = _match_db_by_embedding(emb_now, limiar_cosine)
+          │                      │        └ 0.3
+          │                      └ array([ 0.9579004 ,  1.9947747 ,  0.1604189 , -0.9752116 ,  0.5954882 ,
+          │                                0.02714481, -0.8766285 ,  0.59038925,  0.2015...
+          └ <function _match_db_by_embedding at 0x13ec0caf0>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/identity.py", line 38, in _match_db_by_embedding
+    candidatos = listar_pessoas_embeddings()  # [(pessoa_id, np.array), ...]
+                 └ <function listar_pessoas_embeddings at 0x12cdb7ca0>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 236, in listar_pessoas_embeddings
+    cur.execute("SELECT pessoa_id, embedding FROM pessoas")
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x13ec239a0; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "pessoas" does not exist
+LINE 1: SELECT pessoa_id, embedding FROM pessoas
+                                         ^
+
+28/08/2025 11:11:38 | ERROR | 83689514 | Erro ao carregar embedding do banco: relation "pessoas" does not exist
+LINE 1: SELECT embedding FROM pessoas WHERE pessoa_id='39f238df-68cf...
+                              ^
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 125, in <module>
+    pessoa_id, emb_now, dist, origem = load_or_create_pessoa_id(
+                                       └ <function load_or_create_pessoa_id at 0x13ec0cb80>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/identity.py", line 88, in load_or_create_pessoa_id
+    emb_ref = carregar_embedding_db(local_id)
+              │                     └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+              └ <function carregar_embedding_db at 0x12cdb7b80>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 166, in carregar_embedding_db
+    cur.execute("SELECT embedding FROM pessoas WHERE pessoa_id=%s", (pessoa_id,))
+    │   │                                                            └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x13ec23b80; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "pessoas" does not exist
+LINE 1: SELECT embedding FROM pessoas WHERE pessoa_id='39f238df-68cf...
+                              ^
+
+28/08/2025 11:11:38 | ERROR | 83689514 | Erro ao carregar embedding do banco: relation "pessoas" does not exist
+LINE 1: SELECT embedding FROM pessoas WHERE pessoa_id='39f238df-68cf...
+                              ^
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 125, in <module>
+    pessoa_id, emb_now, dist, origem = load_or_create_pessoa_id(
+                                       └ <function load_or_create_pessoa_id at 0x13ec0cb80>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/identity.py", line 88, in load_or_create_pessoa_id
+    emb_ref = carregar_embedding_db(local_id)
+              │                     └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+              └ <function carregar_embedding_db at 0x12cdb7b80>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 166, in carregar_embedding_db
+    cur.execute("SELECT embedding FROM pessoas WHERE pessoa_id=%s", (pessoa_id,))
+    │   │                                                            └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x13ec23b80; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "pessoas" does not exist
+LINE 1: SELECT embedding FROM pessoas WHERE pessoa_id='39f238df-68cf...
+                              ^
+
+28/08/2025 11:11:38 | SUCCESS | 15995339 | [IDENTIDADE] pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e origem=local_no_face dist=None
+28/08/2025 11:11:38 | SUCCESS | 15995339 | [IDENTIDADE] pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e origem=local_no_face dist=None
+28/08/2025 11:11:38 | ERROR | 83689514 | Erro ao salvar embedding no banco: relation "pessoas" does not exist
+LINE 2:             INSERT INTO pessoas (pessoa_id, embedding)
+                                ^
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 132, in <module>
+    salvar_embedding_db(pessoa_id, emb_now)
+    │                   │          └ array([ 0.9579004 ,  1.9947747 ,  0.1604189 , -0.9752116 ,  0.5954882 ,
+    │                   │                    0.02714481, -0.8766285 ,  0.59038925,  0.2015...
+    │                   └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+    └ <function salvar_embedding_db at 0x12cdb7af0>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 148, in salvar_embedding_db
+    cur.execute("""
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x13ec23a90; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "pessoas" does not exist
+LINE 2:             INSERT INTO pessoas (pessoa_id, embedding)
+                                ^
+
+28/08/2025 11:11:38 | ERROR | 83689514 | Erro ao salvar embedding no banco: relation "pessoas" does not exist
+LINE 2:             INSERT INTO pessoas (pessoa_id, embedding)
+                                ^
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 132, in <module>
+    salvar_embedding_db(pessoa_id, emb_now)
+    │                   │          └ array([ 0.9579004 ,  1.9947747 ,  0.1604189 , -0.9752116 ,  0.5954882 ,
+    │                   │                    0.02714481, -0.8766285 ,  0.59038925,  0.2015...
+    │                   └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+    └ <function salvar_embedding_db at 0x12cdb7af0>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 148, in salvar_embedding_db
+    cur.execute("""
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x13ec23a90; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "pessoas" does not exist
+LINE 2:             INSERT INTO pessoas (pessoa_id, embedding)
+                                ^
+
+28/08/2025 11:11:38 | ERROR | 83689514 | Erro ao carregar embedding do banco: relation "pessoas" does not exist
+LINE 1: SELECT embedding FROM pessoas WHERE pessoa_id='39f238df-68cf...
+                              ^
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 141, in <module>
+    emb_ref = carregar_embedding_db(pessoa_id)
+              │                     └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+              └ <function carregar_embedding_db at 0x12cdb7b80>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 166, in carregar_embedding_db
+    cur.execute("SELECT embedding FROM pessoas WHERE pessoa_id=%s", (pessoa_id,))
+    │   │                                                            └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x13ec239a0; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "pessoas" does not exist
+LINE 1: SELECT embedding FROM pessoas WHERE pessoa_id='39f238df-68cf...
+                              ^
+
+28/08/2025 11:11:38 | ERROR | 83689514 | Erro ao carregar embedding do banco: relation "pessoas" does not exist
+LINE 1: SELECT embedding FROM pessoas WHERE pessoa_id='39f238df-68cf...
+                              ^
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 141, in <module>
+    emb_ref = carregar_embedding_db(pessoa_id)
+              │                     └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+              └ <function carregar_embedding_db at 0x12cdb7b80>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 166, in carregar_embedding_db
+    cur.execute("SELECT embedding FROM pessoas WHERE pessoa_id=%s", (pessoa_id,))
+    │   │                                                            └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x13ec239a0; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "pessoas" does not exist
+LINE 1: SELECT embedding FROM pessoas WHERE pessoa_id='39f238df-68cf...
+                              ^
+
+28/08/2025 11:11:45 | ERROR | 83689514 | ❌ Erro ao salvar no banco: relation "leituras_emocionais" does not exist
+LINE 2:             INSERT INTO leituras_emocionais (
+                                ^
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 306, in <module>
+    salvar_em_banco(emocoes, recursos, data_captura, pessoa_id, meta)
+    │               │        │         │             │          └ {'camera_status': 'erro', 'face_status': 'ok', 'mesma_pessoa': None, 'qualidade': None, 'brilho': None, 'face_distance': None}
+    │               │        │         │             └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+    │               │        │         └ datetime.datetime(2025, 8, 28, 11, 11, 38, 861012)
+    │               │        └ {'cpu': 44.1, 'mem': 70.6, 'disk': 13.8}
+    │               └ None
+    └ <function salvar_em_banco at 0x12cdb7c10>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 202, in salvar_em_banco
+    cur.execute("""
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x13ec23c70; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "leituras_emocionais" does not exist
+LINE 2:             INSERT INTO leituras_emocionais (
+                                ^
+
+28/08/2025 11:11:45 | ERROR | 83689514 | ❌ Erro ao salvar no banco: relation "leituras_emocionais" does not exist
+LINE 2:             INSERT INTO leituras_emocionais (
+                                ^
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 306, in <module>
+    salvar_em_banco(emocoes, recursos, data_captura, pessoa_id, meta)
+    │               │        │         │             │          └ {'camera_status': 'erro', 'face_status': 'ok', 'mesma_pessoa': None, 'qualidade': None, 'brilho': None, 'face_distance': None}
+    │               │        │         │             └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+    │               │        │         └ datetime.datetime(2025, 8, 28, 11, 11, 38, 861012)
+    │               │        └ {'cpu': 44.1, 'mem': 70.6, 'disk': 13.8}
+    │               └ None
+    └ <function salvar_em_banco at 0x12cdb7c10>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 202, in salvar_em_banco
+    cur.execute("""
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x13ec23c70; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "leituras_emocionais" does not exist
+LINE 2:             INSERT INTO leituras_emocionais (
+                                ^
+
+28/08/2025 11:11:45 | ERROR | 83689514 | ❌ Erro ao salvar no banco: relation "leituras_emocionais" does not exist
+LINE 2:             INSERT INTO leituras_emocionais (
+                                ^
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 307, in <module>
+    resultado = registrar_amostra(emocoes, recursos, data_captura, pessoa_id, meta=meta, user_id="default")
+                │                 │        │         │             │               └ {'camera_status': 'erro', 'face_status': 'ok', 'mesma_pessoa': None, 'qualidade': None, 'brilho': None, 'face_distance': None}
+                │                 │        │         │             └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+                │                 │        │         └ datetime.datetime(2025, 8, 28, 11, 11, 38, 861012)
+                │                 │        └ {'cpu': 44.1, 'mem': 70.6, 'disk': 13.8}
+                │                 └ None
+                └ <function registrar_amostra at 0x12cc5caf0>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/services/telemetria.py", line 11, in registrar_amostra
+    salvar_em_banco(emocoes, recursos, data_captura, pessoa_id, meta=meta)
+    │               │        │         │             │               └ {'camera_status': 'erro', 'face_status': 'ok', 'mesma_pessoa': None, 'qualidade': None, 'brilho': None, 'face_distance': None}
+    │               │        │         │             └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+    │               │        │         └ datetime.datetime(2025, 8, 28, 11, 11, 38, 861012)
+    │               │        └ {'cpu': 44.1, 'mem': 70.6, 'disk': 13.8}
+    │               └ None
+    └ <function salvar_em_banco at 0x12cdb7c10>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 202, in salvar_em_banco
+    cur.execute("""
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x13ec23d60; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "leituras_emocionais" does not exist
+LINE 2:             INSERT INTO leituras_emocionais (
+                                ^
+
+28/08/2025 11:11:45 | ERROR | 83689514 | ❌ Erro ao salvar no banco: relation "leituras_emocionais" does not exist
+LINE 2:             INSERT INTO leituras_emocionais (
+                                ^
+
+Traceback (most recent call last):
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/main.py", line 307, in <module>
+    resultado = registrar_amostra(emocoes, recursos, data_captura, pessoa_id, meta=meta, user_id="default")
+                │                 │        │         │             │               └ {'camera_status': 'erro', 'face_status': 'ok', 'mesma_pessoa': None, 'qualidade': None, 'brilho': None, 'face_distance': None}
+                │                 │        │         │             └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+                │                 │        │         └ datetime.datetime(2025, 8, 28, 11, 11, 38, 861012)
+                │                 │        └ {'cpu': 44.1, 'mem': 70.6, 'disk': 13.8}
+                │                 └ None
+                └ <function registrar_amostra at 0x12cc5caf0>
+
+  File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/services/telemetria.py", line 11, in registrar_amostra
+    salvar_em_banco(emocoes, recursos, data_captura, pessoa_id, meta=meta)
+    │               │        │         │             │               └ {'camera_status': 'erro', 'face_status': 'ok', 'mesma_pessoa': None, 'qualidade': None, 'brilho': None, 'face_distance': None}
+    │               │        │         │             └ '39f238df-68cf-4d62-9135-0213d0272c8e'
+    │               │        │         └ datetime.datetime(2025, 8, 28, 11, 11, 38, 861012)
+    │               │        └ {'cpu': 44.1, 'mem': 70.6, 'disk': 13.8}
+    │               └ None
+    └ <function salvar_em_banco at 0x12cdb7c10>
+
+> File "/Users/arthurfaria/Desktop/GitHub/emotion_recognize/app/config/database.py", line 202, in salvar_em_banco
+    cur.execute("""
+    │   └ <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    └ <cursor object at 0x13ec23d60; closed: 0>
+
+psycopg2.errors.UndefinedTable: relation "leituras_emocionais" does not exist
+LINE 2:             INSERT INTO leituras_emocionais (
+                                ^
+
+28/08/2025 11:18:43 | INFO | 25878137 | Tabelas verificadas/criadas com sucesso.
+28/08/2025 11:18:43 | INFO | 25878137 | Tabelas verificadas/criadas com sucesso.
+28/08/2025 11:18:57 | SUCCESS | 34738415 | [IDENTIDADE] pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e origem=local_no_face dist=None
+28/08/2025 11:18:57 | SUCCESS | 34738415 | [IDENTIDADE] pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e origem=local_no_face dist=None
+28/08/2025 11:18:57 | DEBUG | 25878137 | Embedding salvo para pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e (len=512)
+28/08/2025 11:18:57 | DEBUG | 25878137 | Embedding salvo para pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e (len=512)
+28/08/2025 11:19:04 | INFO | 25878137 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=usuario_ausente cam=erro face=ok
+28/08/2025 11:19:04 | INFO | 25878137 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=usuario_ausente cam=erro face=ok
+28/08/2025 11:19:04 | INFO | 25878137 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=usuario_ausente cam=erro face=ok
+28/08/2025 11:19:04 | INFO | 25878137 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=usuario_ausente cam=erro face=ok
+28/08/2025 11:22:05 | INFO | 81061329 | Tabelas verificadas/criadas com sucesso.
+28/08/2025 11:22:05 | INFO | 81061329 | Tabelas verificadas/criadas com sucesso.
+28/08/2025 11:22:21 | DEBUG | 81061329 | Embedding salvo para pessoa_id=5cc7842e-89ad-472b-8d80-e89f42f2a66e (len=512)
+28/08/2025 11:22:21 | DEBUG | 81061329 | Embedding salvo para pessoa_id=5cc7842e-89ad-472b-8d80-e89f42f2a66e (len=512)
+28/08/2025 11:22:21 | SUCCESS | 84509047 | [IDENTIDADE] pessoa_id=5cc7842e-89ad-472b-8d80-e89f42f2a66e origem=new_id dist=None
+28/08/2025 11:22:21 | SUCCESS | 84509047 | [IDENTIDADE] pessoa_id=5cc7842e-89ad-472b-8d80-e89f42f2a66e origem=new_id dist=None
+28/08/2025 11:22:21 | DEBUG | 81061329 | Embedding salvo para pessoa_id=5cc7842e-89ad-472b-8d80-e89f42f2a66e (len=512)
+28/08/2025 11:22:21 | DEBUG | 81061329 | Embedding salvo para pessoa_id=5cc7842e-89ad-472b-8d80-e89f42f2a66e (len=512)
+28/08/2025 11:22:27 | INFO | 81061329 | Registro salvo — pessoa=5cc7842e-89ad-472b-8d80-e89f42f2a66e estado=neutro cam=erro face=ok
+28/08/2025 11:22:27 | INFO | 81061329 | Registro salvo — pessoa=5cc7842e-89ad-472b-8d80-e89f42f2a66e estado=neutro cam=erro face=ok
+28/08/2025 11:22:27 | INFO | 81061329 | Registro salvo — pessoa=5cc7842e-89ad-472b-8d80-e89f42f2a66e estado=neutro cam=erro face=ok
+28/08/2025 11:22:27 | INFO | 81061329 | Registro salvo — pessoa=5cc7842e-89ad-472b-8d80-e89f42f2a66e estado=neutro cam=erro face=ok
+28/08/2025 11:22:37 | INFO | 81061329 | Registro salvo — pessoa=5cc7842e-89ad-472b-8d80-e89f42f2a66e estado=neutro cam=erro face=ok
+28/08/2025 11:22:37 | INFO | 81061329 | Registro salvo — pessoa=5cc7842e-89ad-472b-8d80-e89f42f2a66e estado=neutro cam=erro face=ok
+28/08/2025 11:22:37 | INFO | 81061329 | Registro salvo — pessoa=5cc7842e-89ad-472b-8d80-e89f42f2a66e estado=neutro cam=erro face=ok
+28/08/2025 11:22:37 | INFO | 81061329 | Registro salvo — pessoa=5cc7842e-89ad-472b-8d80-e89f42f2a66e estado=neutro cam=erro face=ok
+28/08/2025 11:34:17 | INFO | 18532658 | Tabelas verificadas/criadas com sucesso.
+28/08/2025 11:34:17 | INFO | 18532658 | Tabelas verificadas/criadas com sucesso.
+28/08/2025 11:34:35 | SUCCESS | 76443818 | [IDENTIDADE] pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e origem=db_match dist=0.12139241622857477
+28/08/2025 11:34:35 | SUCCESS | 76443818 | [IDENTIDADE] pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e origem=db_match dist=0.12139241622857477
+28/08/2025 11:34:35 | DEBUG | 18532658 | Embedding salvo para pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e (len=512)
+28/08/2025 11:34:35 | DEBUG | 18532658 | Embedding salvo para pessoa_id=39f238df-68cf-4d62-9135-0213d0272c8e (len=512)
+28/08/2025 11:34:54 | INFO | 18532658 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=erro face=ok
+28/08/2025 11:34:54 | INFO | 18532658 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=erro face=ok
+28/08/2025 11:34:54 | INFO | 18532658 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=erro face=ok
+28/08/2025 11:34:54 | INFO | 18532658 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=erro face=ok
+28/08/2025 11:35:13 | INFO | 18532658 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=erro face=ok
+28/08/2025 11:35:13 | INFO | 18532658 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=erro face=ok
+28/08/2025 11:35:13 | INFO | 18532658 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=erro face=ok
+28/08/2025 11:35:13 | INFO | 18532658 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=erro face=ok
+28/08/2025 11:45:06 | INFO | 8409302 | Tabelas verificadas/criadas com sucesso.
+28/08/2025 11:45:06 | INFO | 8409302 | Tabelas verificadas/criadas com sucesso.
+28/08/2025 11:45:23 | DEBUG | 8409302 | Embedding salvo para pessoa_id=9214a4ef-c93c-4eac-b687-e679fe76e13a (len=512)
+28/08/2025 11:45:23 | DEBUG | 8409302 | Embedding salvo para pessoa_id=9214a4ef-c93c-4eac-b687-e679fe76e13a (len=512)
+28/08/2025 11:45:23 | SUCCESS | 5593245 | [IDENTIDADE] pessoa_id=9214a4ef-c93c-4eac-b687-e679fe76e13a origem=new_id dist=None
+28/08/2025 11:45:23 | SUCCESS | 5593245 | [IDENTIDADE] pessoa_id=9214a4ef-c93c-4eac-b687-e679fe76e13a origem=new_id dist=None
+28/08/2025 11:45:23 | DEBUG | 8409302 | Embedding salvo para pessoa_id=9214a4ef-c93c-4eac-b687-e679fe76e13a (len=512)
+28/08/2025 11:45:23 | DEBUG | 8409302 | Embedding salvo para pessoa_id=9214a4ef-c93c-4eac-b687-e679fe76e13a (len=512)
+28/08/2025 11:45:54 | INFO | 8409302 | Registro salvo — pessoa=9214a4ef-c93c-4eac-b687-e679fe76e13a estado=neutro cam=ok face=ok
+28/08/2025 11:45:54 | INFO | 8409302 | Registro salvo — pessoa=9214a4ef-c93c-4eac-b687-e679fe76e13a estado=neutro cam=ok face=ok
+28/08/2025 11:45:54 | INFO | 8409302 | Registro salvo — pessoa=9214a4ef-c93c-4eac-b687-e679fe76e13a estado=neutro cam=ok face=ok
+28/08/2025 11:45:54 | INFO | 8409302 | Registro salvo — pessoa=9214a4ef-c93c-4eac-b687-e679fe76e13a estado=neutro cam=ok face=ok
+28/08/2025 11:46:28 | INFO | 8409302 | Registro salvo — pessoa=9214a4ef-c93c-4eac-b687-e679fe76e13a estado=triste cam=ok face=ok
+28/08/2025 11:46:28 | INFO | 8409302 | Registro salvo — pessoa=9214a4ef-c93c-4eac-b687-e679fe76e13a estado=triste cam=ok face=ok
+28/08/2025 11:46:28 | INFO | 8409302 | Registro salvo — pessoa=9214a4ef-c93c-4eac-b687-e679fe76e13a estado=triste cam=ok face=ok
+28/08/2025 11:46:28 | INFO | 8409302 | Registro salvo — pessoa=9214a4ef-c93c-4eac-b687-e679fe76e13a estado=triste cam=ok face=ok
+28/08/2025 11:46:29 | ERROR | 5593245 | [ALERTS] Falha ao registrar amostra: column "quiet_start" does not exist
+LINE 2:                 SELECT quiet_start::text, quiet_end::text, d...
+                               ^
+
+28/08/2025 11:46:29 | ERROR | 5593245 | [ALERTS] Falha ao registrar amostra: column "quiet_start" does not exist
+LINE 2:                 SELECT quiet_start::text, quiet_end::text, d...
+                               ^
+
+28/08/2025 11:46:47 | INFO | 8409302 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=triste cam=ok face=reatribuido:db_match
+28/08/2025 11:46:47 | INFO | 8409302 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=triste cam=ok face=reatribuido:db_match
+28/08/2025 11:46:47 | INFO | 8409302 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=triste cam=ok face=reatribuido:db_match
+28/08/2025 11:46:47 | INFO | 8409302 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=triste cam=ok face=reatribuido:db_match
+28/08/2025 11:47:19 | INFO | 8409302 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=ok face=ok
+28/08/2025 11:47:19 | INFO | 8409302 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=ok face=ok
+28/08/2025 11:47:19 | INFO | 8409302 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=ok face=ok
+28/08/2025 11:47:19 | INFO | 8409302 | Registro salvo — pessoa=39f238df-68cf-4d62-9135-0213d0272c8e estado=neutro cam=ok face=ok

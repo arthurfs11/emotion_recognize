@@ -345,8 +345,8 @@ def gerar_pdf_relatorio(csv_path: str, out_path: str = None, titulo: str = None)
 
 
 # ===== PARÂMETROS =====
-INTERVALO = 10           # coleta a cada 10s
-TEST_DURATION_MIN = 30   # duração do teste em minutos
+INTERVALO = 1           # coleta a cada 10s
+TEST_DURATION_MIN = 1   # duração do teste em minutos
 
 
 if __name__ == "__main__":
